@@ -1,19 +1,24 @@
-package by.itacademy.practice1.bookshop.book;
+package by.itacademy.practice1.bookshop.entity.book;
 
-import by.itacademy.practice1.bookshop.Product;
+import by.itacademy.practice1.bookshop.entity.Product;
+import java.util.List;
 
 public class Book extends Product {
 
     private String name;
     private Author author;
-    private Genre[] genres;
+    private List<Genre> genres;
     private short yearOfPublishing;
 
-    public Book(String name, Author author, Genre[] genres, short yearOfPublishing) {
+    public Book(String name, Author author, List<Genre> genres, short yearOfPublishing) {
         this.name = name;
         this.author = author;
         this.genres = genres;
         this.yearOfPublishing = yearOfPublishing;
+    }
+
+    public List<Genre> getGenres() {
+        return genres;
     }
 
     @Override

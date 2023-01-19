@@ -1,6 +1,6 @@
-package by.itacademy.practice1.bookshop.concelery;
+package by.itacademy.practice1.bookshop.entity.concelery;
 
-import by.itacademy.practice1.bookshop.Product;
+import by.itacademy.practice1.bookshop.entity.Product;
 
 public abstract class Stationery extends Product {
 

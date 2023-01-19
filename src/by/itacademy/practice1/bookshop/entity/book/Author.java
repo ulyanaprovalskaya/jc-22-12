@@ -1,4 +1,4 @@
-package by.itacademy.practice1.bookshop.book;
+package by.itacademy.practice1.bookshop.entity.book;
 
 public class Author {
 
@@ -10,6 +10,14 @@ public class Author {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthYear = birthYear;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     @Override

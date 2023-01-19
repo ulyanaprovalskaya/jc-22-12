@@ -1,4 +1,4 @@
-package by.itacademy.practice1.bookshop.concelery;
+package by.itacademy.practice1.bookshop.entity.concelery;
 
 public class Pencil extends Stationery {
 
