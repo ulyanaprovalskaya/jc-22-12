@@ -9,9 +9,4 @@ public abstract class Stationery extends Product {
     public String getColor() {
         return color;
     }
-
-    @Override
-    public void buy() {
-        availableAmount--;
-    }
 }

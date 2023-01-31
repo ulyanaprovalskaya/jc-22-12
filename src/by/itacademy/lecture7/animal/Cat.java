@@ -7,7 +7,7 @@ public class Cat extends Animal {
     public Cat(String color, String name, String breed) {
         super(color, name);
         this.breed = breed;
-    }
+    } 
 
     public void makeSound() {
         System.out.println("Мяу");
